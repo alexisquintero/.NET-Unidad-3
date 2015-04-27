@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabSintaxis4.3", "LabSintax
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabSintaxis4.4", "LabSintaxis4.4\LabSintaxis4.4.csproj", "{2F027693-9F3B-4F2F-93F9-16C186FDCEDA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabSintaxis4.5", "LabSintaxis4.5\LabSintaxis4.5.csproj", "{BDB55C58-FD69-4673-A40F-86393E88892C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabSintaxis4.6", "LabSintaxis4.6\LabSintaxis4.6.csproj", "{2806BDCF-C84B-4C51-968D-C6010A0B09C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{2F027693-9F3B-4F2F-93F9-16C186FDCEDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F027693-9F3B-4F2F-93F9-16C186FDCEDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F027693-9F3B-4F2F-93F9-16C186FDCEDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDB55C58-FD69-4673-A40F-86393E88892C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDB55C58-FD69-4673-A40F-86393E88892C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDB55C58-FD69-4673-A40F-86393E88892C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDB55C58-FD69-4673-A40F-86393E88892C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2806BDCF-C84B-4C51-968D-C6010A0B09C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2806BDCF-C84B-4C51-968D-C6010A0B09C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2806BDCF-C84B-4C51-968D-C6010A0B09C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2806BDCF-C84B-4C51-968D-C6010A0B09C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
