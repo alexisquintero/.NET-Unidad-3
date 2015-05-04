@@ -10,23 +10,34 @@ namespace LabSintaxis4._7
     {
         static void Main(string[] args)
         {
-            int a, b = 0;
+            int tope, cont = 1;
             Console.WriteLine("Ingrese tope numeros primos y gemelos.. si, a la vez!");
-            a = int.Parse(Console.ReadLine());
-            for (int i=2; i<(a+1);i++)
+            tope = int.Parse(Console.ReadLine());
+            for (int i = 3; i < tope; i++)
             {
-                for (int j = (i-1); 2 < j; j--)
+                if (EsPrimo(i))
                 {
-                    if ((i - b) = 2)
+                    if (EsPrimo(i + 2))
                     {
-                        if (i % j == 0)
-                        {
-                            b = i;
-                        }
+                        Console.WriteLine("El par número: " + cont + " es " + i + " y " + (i + 2));
+                        cont += 1;
                     }
-                    
+                }
+            
+            }
+            Console.ReadKey();
+        }
+
+        public static bool EsPrimo(int nro)
+        {
+            for (int i = 2; i < nro; i++)
+            {
+                if (nro % i == 0)
+                {
+                    return false;
                 }
             }
+                return true;
         }
     }
 }
